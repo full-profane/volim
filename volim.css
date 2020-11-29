@@ -2,14 +2,19 @@ body {
   margin: 0px;
 }
 
-/*.red-container{
+.red-container{
   background: #b52f3a;
-  height: 80%;
+  height: 650px;
   width: 100%;
   display: inline-block;
 }
 
 .header{
   display: block;
-  background: url(img/d3.jpg);
+  background: url(img/slider1.jpg) 100% 100% no-repeat;
+  background-size:contain;
+  height: 87%;
+  width: 90%;
+  margin: auto;
+  margin-top: 78px;
 }
