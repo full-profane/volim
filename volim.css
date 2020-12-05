@@ -12,9 +12,41 @@ body {
 .header{
   display: block;
   background: url(img/slider1.jpg) 100% 100% no-repeat;
-  background-size:contain;
+  background-size:cover;
   height: 87%;
   width: 90%;
   margin: auto;
   margin-top: 78px;
+  position: relative;
+}
+
+.header-logo{
+  position: absolute;
+  top: 20px;
+  left: 30px;
+}
+
+.header-menu{
+  display: inline-block;
+  height: 70px;
+  width: 77%;
+  position: absolute;
+  right: 0px;
+  top: 45px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.header-list {
+  list-style: none;
+}
+.header__list {
+  float: left;
+  margin-left: 75px;
+}
+
+#list__active{
+  color: white;
 }
