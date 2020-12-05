@@ -4,7 +4,7 @@ body {
 
 .red-container{
   background: #b52f3a;
-  height: 650px;
+  height: 700px;
   width: 100%;
   display: inline-block;
 }
@@ -16,7 +16,7 @@ body {
   height: 87%;
   width: 90%;
   margin: auto;
-  margin-top: 78px;
+  margin-top: 90px;
   position: relative;
 }
 
@@ -49,4 +49,28 @@ body {
 
 #list__active{
   color: white;
+}
+.header-main{
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.box-center{
+  display: inline-block;
+  position: absolute;
+  top: 150px;
+  left: 200px;
+  width: 200px;
+  height: 60%;
+}
+
+.center-title{
+  color: white;
+  font-size: 65px;
+  margin: 0px;
+  margin-right: 40px;
+  font-family: 'poppins', sans-serif;
+  font-weight: 600;
 }
