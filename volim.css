@@ -103,3 +103,31 @@ body {
 .img__dance{
   height: 100%;
 }
+
+.box-bottom{
+  display: block;
+  width: 80px;
+  height: 35px;
+  position: absolute;
+  bottom: 30px;
+  right: 650px;
+}
+
+.bottom-circle__red{
+  display: inline-block;
+  height: 100%;
+  width: 46%;
+  background: #9f1414d1;
+  border-radius: 50%;
+}
+
+.bottom-circle__white{
+  display: inline-block;
+  height: 100%;
+  width: 46%;
+  background: #d4cdcd;
+  float: right;
+  border-radius: 50%;
+}
+
+
