@@ -170,7 +170,6 @@ body {
   position: absolute;
   bottom: -10px;
   left: 150px;
-
 }
 
 
@@ -192,10 +191,10 @@ body {
   width: 70%;
   height: 30%;
   color: white;
- font-family: 'Open Sans', sans-serif;
-  font-size: 21px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 23px;
   margin-top: 240px;
-  margin-left: 80px;
+  margin-left: 90px;
 }
 
 .training-img{
@@ -203,4 +202,13 @@ body {
   width: 60%;
   height: 100%;
   float: right;
+}
+
+
+.training__image{
+  display: block;
+  width: 90%;
+  height: 82%;
+  border-radius: 70px;
+  margin-top: 80px;
 }
