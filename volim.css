@@ -22,7 +22,7 @@ body {
 
 .header-logo{
   display: inline-block;
-  width: 18%;
+  width: 17%;
   height: 17%;
   position: absolute;
   top: 20px;
@@ -52,7 +52,7 @@ body {
 }
 .header__list {
   float: left;
-  margin-left: 60px;
+  margin-left: 65px;
 }
 
 #list__active{
@@ -110,7 +110,7 @@ body {
   height: 35px;
   position: absolute;
   bottom: 30px;
-  right: 715px;
+  right: 555px;
 }
 
 .bottom-circle__red{
@@ -131,34 +131,32 @@ body {
 }
 
 .trainings{
-  display: block;
+  display: inline-block;
   width: 100%;
-  height: 800px;
+  height: 700px;
 }
 
 .trainings-white{
-  display: block;
+  display: inline-block;
   width: 100%;
-  height: 25%;
+  height: 22%;
 }
 
-.white-title{
+.trainings-title{
   display: block;
-  width: 320px;
-  height: 70px;
-  margin: auto;
-  padding-top: 60px;
+  width: 290px;
+  height: 60px;
   border-bottom: 1px black solid;
+  margin: auto;
+  margin-top: 40px;
   position: relative;
 }
 
-#white__title{
-  font-size: 54px;
-  font-weight: 700;
-  font-family: 'Roboto', sans-serif;
+.trainings-title__text{
+  font-size: 48px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
   text-align: center;
-  margin-top: 0px;
-  margin-bottom: 0px;
 }
 
 .trainings-title__circle{
@@ -173,7 +171,7 @@ body {
 }
 
 .trainings-red{
-  display: block;
+  display: inline-block;
   width: 100%;
   height: 80%;
   background: #b52f3a;
@@ -190,13 +188,13 @@ body {
   font-size: 18px;
   font-weight: 100;
   font-family: 'Roboto', sans-serif;
-  margin-top: 250px;
+  margin-top: 200px;
   margin-left: 40px;
   margin-right: 10px;
 }
 
 .trainings-img{
-  display: inline-block;
+   display: inline-block;
   height: 100%;
   width: 65%; 
   float: right;
