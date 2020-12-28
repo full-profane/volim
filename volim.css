@@ -110,7 +110,7 @@ body {
   height: 35px;
   position: absolute;
   bottom: 30px;
-  right: 650px;
+  right: 555px;
 }
 
 .bottom-circle__red{
@@ -130,4 +130,207 @@ body {
   border-radius: 50%;
 }
 
+.trainings{
+  display: inline-block;
+  width: 100%;
+  height: 700px;
+}
 
+.trainings-white{
+  display: inline-block;
+  width: 100%;
+  height: 22%;
+}
+
+.trainings-title{
+  display: block;
+  width: 290px;
+  height: 60px;
+  border-bottom: 1px black solid;
+  margin: auto;
+  margin-top: 40px;
+  position: relative;
+}
+
+.trainings-title__text{
+  font-size: 48px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+
+.trainings-title__circle{
+ display: block;
+ width: 15px;
+ height: 15px;
+ position: absolute;
+ bottom: -8px;
+ right: 140px;
+ background: #b52f3a;
+ border-radius: 50%;
+}
+
+.trainings-red{
+  display: inline-block;
+  width: 100%;
+  height: 80%;
+  background: #b52f3a;
+}
+
+.trainings-text{
+  display: inline-block;
+  height: 100%;
+  width: 34%;
+}
+
+.trainings-text__lorem{
+  color: white;
+  font-size: 18px;
+  font-weight: 100;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 200px;
+  margin-left: 40px;
+  margin-right: 10px;
+}
+
+.trainings-img{
+   display: inline-block;
+  height: 100%;
+  width: 65%; 
+  float: right;
+}
+
+.trainings-img__foto{
+  height: 80%;
+  width: 90%;
+  border-radius: 50px;
+  margin-top: 70px;
+}
+
+.classes{
+  display: block;
+  height: 600px;
+  width: 100%;
+}
+
+.classes-top{
+  display: block;
+  height: 17%;
+  width: 100%;
+}
+
+.classes-title{
+  display: block; 
+  width: 240px;
+  height: 60px;
+  border-bottom: 1px solid black;
+  position: relative;
+  margin: auto;
+}
+
+.classes-title__text{
+  font-size: 45px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+
+.classes-title__circle{
+ display: block;
+ width: 15px;
+ height: 15px;
+ position: absolute;
+ bottom: -8px;
+ right: 110px;
+ background: #b52f3a;
+ border-radius: 50%;
+}
+
+.classes-images{
+  display: block;
+  height: 80%;
+  width: 72%;
+  margin: auto;
+}
+
+.classes-images__bgr{
+  float: left;
+  width: 30%;
+  height: 45%;
+  margin-left: 20px;
+  margin-top: 20px;
+  border-radius: 30px;
+  position: relative;
+  text-align: center;
+  color: white;
+ background-color: black;
+}
+
+.classes-images__dancing{
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  opacity: 0.7;
+}
+.classes-images__text{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  text-align: center;
+  color: white;
+  line-height: 213px;
+  font-size: 40px;
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.openhour{
+  display: block;
+  width: 100%;
+  height: 600px;
+  position: relative;
+}
+
+.openhour-red{
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  background: #b52f3a;
+}
+
+.openhour-img{
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  float: right;
+  background: url(img/oh.jpg);
+  background-size: cover;
+}
+
+.openhour-lesson{
+  display: inline-block; 
+  width: 40%;
+  height: 62%;
+  position: absolute;
+  top: 120px;
+  left: 240px;
+  background-color: white;
+}
+
+.openhour-lesson__title{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 45px;
+  margin-left: 50px;
+  margin-bottom: 10px;
+}
+
+.openhour-lesson__dance{
+  margin-left: 50px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  margin-top: 10px;
+  color: #252121;
+}
