@@ -22,7 +22,7 @@ body {
 
 .header-logo{
   display: inline-block;
-  width: 18%;
+  width: 17%;
   height: 17%;
   position: absolute;
   top: 20px;
@@ -52,7 +52,7 @@ body {
 }
 .header__list {
   float: left;
-  margin-left: 60px;
+  margin-left: 65px;
 }
 
 #list__active{
@@ -185,7 +185,7 @@ body {
 
 .trainings-text__lorem{
   color: white;
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 100;
   font-family: 'Open Sans', sans-serif;
   margin-top: 200px;
@@ -196,7 +196,7 @@ body {
 .trainings-img{
    display: inline-block;
   height: 100%;
-  width: 65%; 
+  width: 58%;
   float: right;
 }
 
@@ -209,7 +209,7 @@ body {
 
 .classes{
   display: block;
-  height: 600px;
+  height: 700px;
   width: 100%;
 }
 
@@ -220,7 +220,7 @@ body {
 }
 
 .classes-title{
-  display: block; 
+  display: block;
   width: 240px;
   height: 60px;
   border-bottom: 1px solid black;
@@ -249,7 +249,7 @@ body {
 .classes-images{
   display: block;
   height: 80%;
-  width: 72%;
+  width: 75%;
   margin: auto;
 }
 
@@ -311,7 +311,7 @@ body {
 }
 
 .openhour-lesson{
-  display: inline-block; 
+  display: inline-block;
   width: 40%;
   height: 62%;
   position: absolute;
