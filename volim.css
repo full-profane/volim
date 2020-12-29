@@ -2,14 +2,14 @@ body {
   margin: 0px;
 }
 
-.red-container{
+.red-container {
   background: #b52f3a;
   height: 700px;
   width: 100%;
   display: inline-block;
 }
 
-.header{
+.header {
   display: block;
   background: url(img/slider1.jpg) 100% 100% no-repeat;
   background-size:cover;
@@ -20,7 +20,7 @@ body {
   position: relative;
 }
 
-.header-logo{
+.header-logo {
   display: inline-block;
   width: 17%;
   height: 17%;
@@ -29,12 +29,12 @@ body {
   left: 30px;
 }
 
-#header-logo__img{
+#header-logo__img {
   width: 100%;
   height: 100%;
 }
 
-.header-menu{
+.header-menu {
   display: inline-block;
   height: 70px;
   width: 77%;
@@ -55,17 +55,18 @@ body {
   margin-left: 65px;
 }
 
-#list__active{
+#list__active {
   color: white;
 }
-.header-main{
+
+.header-main {
   display: block;
   height: 100%;
   width: 100%;
   position: relative;
 }
 
-.box-center{
+.box-center {
   display: inline-block;
   position: absolute;
   top: 150px;
@@ -74,7 +75,7 @@ body {
   height: 60%;
 }
 
-.center__title{
+.center__title {
   color: white;
   font-size: 65px;
   margin: 0px;
@@ -83,7 +84,7 @@ body {
   font-weight: 600;
 }
 
-.box-left{
+.box-left {
   display: inline-block;
   width: 3%;
   height: 57%;
@@ -91,7 +92,7 @@ body {
   top: 150px;
   left: 90px;
 }
-.box-right{
+.box-right {
   display: inline-block;
   width: 3%;
   height: 57%;
@@ -100,11 +101,11 @@ body {
   right: 70px;
 }
 
-.img__dance{
+.img__dance-section {
   height: 100%;
 }
 
-.box-bottom{
+.box-bottom {
   display: block;
   width: 80px;
   height: 35px;
@@ -113,7 +114,7 @@ body {
   right: 555px;
 }
 
-.bottom-circle__red{
+.bottom-circle__red {
   display: inline-block;
   height: 100%;
   width: 46%;
@@ -121,7 +122,7 @@ body {
   border-radius: 50%;
 }
 
-.bottom-circle__white{
+.bottom-circle__white {
   display: inline-block;
   height: 100%;
   width: 46%;
@@ -130,60 +131,32 @@ body {
   border-radius: 50%;
 }
 
-.trainings{
+.trainings {
   display: inline-block;
   width: 100%;
   height: 700px;
 }
 
-.trainings-white{
+.trainings-white {
   display: inline-block;
   width: 100%;
   height: 22%;
 }
 
-.trainings-title{
-  display: block;
-  width: 290px;
-  height: 60px;
-  border-bottom: 1px black solid;
-  margin: auto;
-  margin-top: 40px;
-  position: relative;
-}
-
-.trainings-title__text{
-  font-size: 48px;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 600;
-  text-align: center;
-}
-
-.trainings-title__circle{
- display: block;
- width: 15px;
- height: 15px;
- position: absolute;
- bottom: -8px;
- right: 140px;
- background: #b52f3a;
- border-radius: 50%;
-}
-
-.trainings-red{
+.trainings-red {
   display: inline-block;
   width: 100%;
   height: 80%;
   background: #b52f3a;
 }
 
-.trainings-text{
+.trainings-text {
   display: inline-block;
   height: 100%;
   width: 34%;
 }
 
-.trainings-text__lorem{
+.trainings-text__lorem {
   color: white;
   font-size: 22px;
   font-weight: 100;
@@ -193,67 +166,40 @@ body {
   margin-right: 10px;
 }
 
-.trainings-img{
+.trainings-img {
    display: inline-block;
   height: 100%;
   width: 58%;
   float: right;
 }
 
-.trainings-img__foto{
+.trainings-img__foto {
   height: 80%;
   width: 90%;
   border-radius: 50px;
   margin-top: 70px;
 }
 
-.classes{
+.dance-section {
   display: block;
   height: 700px;
   width: 100%;
 }
 
-.classes-top{
+.dance-section-top {
   display: block;
   height: 17%;
   width: 100%;
 }
 
-.classes-title{
-  display: block;
-  width: 240px;
-  height: 60px;
-  border-bottom: 1px solid black;
-  position: relative;
-  margin: auto;
-}
-
-.classes-title__text{
-  font-size: 45px;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 600;
-  text-align: center;
-}
-
-.classes-title__circle{
- display: block;
- width: 15px;
- height: 15px;
- position: absolute;
- bottom: -8px;
- right: 110px;
- background: #b52f3a;
- border-radius: 50%;
-}
-
-.classes-images{
+.dance-section-images {
   display: block;
   height: 80%;
   width: 75%;
   margin: auto;
 }
 
-.classes-images__bgr{
+.dance-section-images__bgr {
   float: left;
   width: 30%;
   height: 45%;
@@ -266,13 +212,13 @@ body {
  background-color: black;
 }
 
-.classes-images__dancing{
+.dance-section-images__dancing {
   width: 100%;
   height: 100%;
   border-radius: 30px;
   opacity: 0.7;
 }
-.classes-images__text{
+.dance-section-images__text {
   position: absolute;
   top: 0;
   left: 0;
@@ -287,21 +233,21 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-.openhour{
+.openhour {
   display: block;
   width: 100%;
   height: 600px;
   position: relative;
 }
 
-.openhour-red{
+.openhour-red {
   display: inline-block;
   width: 50%;
   height: 100%;
   background: #b52f3a;
 }
 
-.openhour-img{
+.openhour-img {
   display: inline-block;
   width: 50%;
   height: 100%;
@@ -310,7 +256,7 @@ body {
   background-size: cover;
 }
 
-.openhour-lesson{
+.openhour-lesson {
   display: inline-block;
   width: 40%;
   height: 62%;
@@ -320,14 +266,14 @@ body {
   background-color: white;
 }
 
-.openhour-lesson__title{
+.openhour-lesson__title {
   font-family: 'Open Sans', sans-serif;
   font-size: 45px;
   margin-left: 50px;
   margin-bottom: 10px;
 }
 
-.openhour-lesson__dance{
+.openhour-lesson__dance-section {
   margin-left: 50px;
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
@@ -335,35 +281,35 @@ body {
   color: #252121;
 }
 
-.shortcode{
+.shortcode {
   display: block;
   height: 700px;
   width: 100%;
 }
 
-.shortcode-top{
+.shortcode-top {
   display: block;
-  height: 17%;
   width: 100%;
 }
 
-.shortcode-title{
+.page-title {
   display: block;
   width: 300px;
-  height: 60px;
   border-bottom: 1px solid black;
   position: relative;
   margin: auto;
+  margin-bottom: 10px;
 }
 
-.shortcode-title__text{
+.page-title__text {
   font-size: 45px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
+  margin-bottom: 0px;
   text-align: center;
 }
 
-.shortcode-title__circle{
+.page-title__circle {
  display: block;
  width: 15px;
  height: 15px;
@@ -374,32 +320,32 @@ body {
  border-radius: 50%;
 }
 
-.shortcode-bottom{
+.shortcode-bottom {
   display: block;
   height: 77%;
   width: 100%;
 }
 
-.shortcode-left{
+.shortcode-left {
   display: inline-block;
   width: 40%;
   height: 100%;
 }
 
-.shortcode-left__img{
+.shortcode-left__img {
   width: 80%;
   height: 100%;
   margin-left: 150px;
 }
 
-.shortcode-right{
+.shortcode-right {
   display: inline-block;
   width: 58%;
   height: 100%;
   float: right;
   position: relative;
 }
-.shortcode-right__img{
+.shortcode-right__img {
   display: block;
   width: 65%;
   height: 90%;
