@@ -15,7 +15,6 @@ body {
   height: 90%;
   width: 90%;
   margin: auto;
-  margin-top: 70px;
   position: relative;
 }
 
@@ -51,7 +50,7 @@ body {
 }
 .header__list {
   float: left;
-  margin-left: 65px;
+  margin-left: 55px;
 }
 
 #list__active {
@@ -263,7 +262,7 @@ body {
   height: 700px;
 }
 
-.trainings-white ,.dance-section-top , .shortcode-top {
+.trainings-white ,.dance-section-top , .shortcode-title {
   display:block;
 }
 
@@ -279,6 +278,7 @@ body {
 .page-title__text {
   font-size: 45px;
   font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
   font-weight: 600;
   margin-bottom: 0px;
   text-align: center;
@@ -295,7 +295,7 @@ body {
  border-radius: 50%;
 }
 
-.shortcode-bottom {
+.shortcode-img {
   display: block;
   height: 77%;
 }
@@ -317,6 +317,7 @@ body {
   float: right;
   position: relative;
 }
+
 .shortcode-right__img {
   display: block;
   width: 65%;
