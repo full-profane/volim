@@ -185,7 +185,7 @@ body {
 
 .trainings-text__lorem{
   color: white;
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 100;
   font-family: 'Open Sans', sans-serif;
   margin-top: 200px;
@@ -196,7 +196,7 @@ body {
 .trainings-img{
    display: inline-block;
   height: 100%;
-  width: 65%; 
+  width: 58%;
   float: right;
 }
 
@@ -209,7 +209,7 @@ body {
 
 .classes{
   display: block;
-  height: 600px;
+  height: 700px;
   width: 100%;
 }
 
@@ -220,7 +220,7 @@ body {
 }
 
 .classes-title{
-  display: block; 
+  display: block;
   width: 240px;
   height: 60px;
   border-bottom: 1px solid black;
@@ -249,7 +249,7 @@ body {
 .classes-images{
   display: block;
   height: 80%;
-  width: 72%;
+  width: 75%;
   margin: auto;
 }
 
@@ -311,7 +311,7 @@ body {
 }
 
 .openhour-lesson{
-  display: inline-block; 
+  display: inline-block;
   width: 40%;
   height: 62%;
   position: absolute;
@@ -333,4 +333,76 @@ body {
   font-size: 20px;
   margin-top: 10px;
   color: #252121;
+}
+
+.shortcode{
+  display: block;
+  height: 700px;
+  width: 100%;
+}
+
+.shortcode-top{
+  display: block;
+  height: 17%;
+  width: 100%;
+}
+
+.shortcode-title{
+  display: block;
+  width: 300px;
+  height: 60px;
+  border-bottom: 1px solid black;
+  position: relative;
+  margin: auto;
+}
+
+.shortcode-title__text{
+  font-size: 45px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+
+.shortcode-title__circle{
+ display: block;
+ width: 15px;
+ height: 15px;
+ position: absolute;
+ bottom: -8px;
+ right: 140px;
+ background: #b52f3a;
+ border-radius: 50%;
+}
+
+.shortcode-bottom{
+  display: block;
+  height: 77%;
+  width: 100%;
+}
+
+.shortcode-left{
+  display: inline-block;
+  width: 40%;
+  height: 100%;
+}
+
+.shortcode-left__img{
+  width: 80%;
+  height: 100%;
+  margin-left: 150px;
+}
+
+.shortcode-right{
+  display: inline-block;
+  width: 58%;
+  height: 100%;
+  float: right;
+  position: relative;
+}
+.shortcode-right__img{
+  display: block;
+  width: 65%;
+  height: 90%;
+  position: absolute;
+  right: 250px;
 }
