@@ -6,6 +6,8 @@ body {
   background: #b52f3a;
   height: 700px;
   display: block;
+  padding-right: 70px;
+  padding-left: 70px;
 }
 
 .header {
@@ -13,7 +15,6 @@ body {
   background: url(img/slider1.jpg) 100% 100% no-repeat;
   background-size:cover;
   height: 90%;
-  width: 90%;
   margin: auto;
   position: relative;
 }
@@ -325,3 +326,4 @@ body {
   position: absolute;
   right: 250px;
 }
+
