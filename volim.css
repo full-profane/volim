@@ -187,7 +187,7 @@ body {
   position: relative;
   text-align: center;
   color: white;
- background-color: black;
+ background-color: #000000;
 }
 
 .dance-section-images__dancing {
@@ -270,7 +270,7 @@ body {
 .page-title {
   display: block;
   width: 280px;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #000000;
   position: relative;
   margin: auto;
   margin-bottom: 45px;
@@ -327,39 +327,37 @@ body {
   right: 250px;
 }
 
-.contactus {
+.contact {
   display: block;
-  height: 700px;
+
 }
 
-.contactus-red {
+.contact-red {
   display: block;
-  height: 80%;
+  height: 85%;
   background: #b52f3a;
 }
 
-.contactus-form {
+.contact-form {
   display: inline-block;
   width: 26%;
-  height: 70%;
   background: white;
-  margin-top: 60px;
+  margin-top: 80px;
+  margin-bottom: 80px;
   margin-left: 170px;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-top: 50px;
+  padding: 50px 50px 0px 50px;
 }
 
-.contactus-form__input {
+.contact-form__input {
   width: 100%;
   height: 30px;
   border: 0;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   border-bottom: 3px #928a8a solid;
   font-size: 16px;
 }
 
-.contactus-form__textarea {
+.contact-form__textarea {
   width: 100%;
   height: 70px;
   border: 0;
@@ -369,32 +367,39 @@ body {
   font-family: 'Arial';
 }
 
-.contactus-form__button {
+.contact-form__button {
   display: block;
   width: 50%;
   height: 60px;
-  margin:  auto;
+  margin: auto;
   background: #b52f3a;
   border: none;
-  color: white;
+  color: #ffffff;
   font-size: 18px;
-
+  margin-bottom: 30px;
 }
 
-.contactus-form__input:focus {
-  border: 1px red solid;
+.contact-form__input:focus {
+  border: 1px #ffffff solid;
   border-bottom: 3px #928a8a solid;
-  font-size: 12px;
+  font-size: 16px;
 }
-.contactus-img {
+
+.contact-img {
   display:block;
   width: 55%;
   float: right;
 }
 
-.contactus-img__map {
+.contact-img__map {
   display: block;
   width: 70%;
-  height: 90%;
-  margin-top: 60px;
+  height: 92%;
+  margin-top: 80px;
+}
+
+footer {
+  display: block;
+  height: 300px;
+  background: #000000;
 }
