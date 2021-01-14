@@ -327,18 +327,18 @@ body {
   right: 250px;
 }
 
-.contactus {
+.contact {
   display: block;
   height: 700px;
 }
 
-.contactus-red {
+.contact-red {
   display: block;
   height: 80%;
   background: #b52f3a;
 }
 
-.contactus-form {
+.contact-form {
   display: inline-block;
   width: 26%;
   height: 70%;
@@ -350,7 +350,7 @@ body {
   padding-top: 50px;
 }
 
-.contactus-form__input {
+.contact-form__input {
   width: 100%;
   height: 30px;
   border: 0;
@@ -359,7 +359,7 @@ body {
   font-size: 16px;
 }
 
-.contactus-form__textarea {
+.contact-form__textarea {
   width: 100%;
   height: 70px;
   border: 0;
@@ -369,7 +369,7 @@ body {
   font-family: 'Arial';
 }
 
-.contactus-form__button {
+.contact-form__button {
   display: block;
   width: 50%;
   height: 60px;
@@ -378,21 +378,21 @@ body {
   border: none;
   color: white;
   font-size: 18px;
-
 }
 
-.contactus-form__input:focus {
+.contact-form__input:focus {
   border: 1px red solid;
   border-bottom: 3px #928a8a solid;
   font-size: 12px;
 }
-.contactus-img {
+
+.contact-img {
   display:block;
   width: 55%;
   float: right;
 }
 
-.contactus-img__map {
+.contact-img__map {
   display: block;
   width: 70%;
   height: 90%;
