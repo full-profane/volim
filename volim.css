@@ -270,7 +270,7 @@ body {
 .page-title {
   display: block;
   width: 280px;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #000000;
   position: relative;
   margin: auto;
   margin-bottom: 45px;
@@ -340,7 +340,6 @@ body {
 .contact-form {
   display: inline-block;
   width: 26%;
-  height: 70%;
   background: white;
   margin-top: 60px;
   margin-left: 170px;
@@ -373,7 +372,7 @@ body {
   margin:  auto;
   background: #b52f3a;
   border: none;
-  color: white;
+  color: #ffffff;
   font-size: 18px;
   margin-bottom: 40px;
 }
@@ -387,7 +386,6 @@ body {
 .contact-img__map {
   display: block;
   width: 70%;
-  height: 90%;
   margin-top: 60px;
 }
 
