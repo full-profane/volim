@@ -329,21 +329,19 @@ body {
 
 .contact {
   display: block;
-
 }
 
 .contact-red {
   display: block;
-  height: 85%;
   background: #b52f3a;
+  padding-bottom: 70px;
 }
 
 .contact-form {
   display: inline-block;
   width: 26%;
   background: white;
-  margin-top: 80px;
-  margin-bottom: 80px;
+  margin-top: 60px;
   margin-left: 170px;
   padding: 50px 50px 0px 50px;
 }
@@ -352,7 +350,7 @@ body {
   width: 100%;
   height: 30px;
   border: 0;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   border-bottom: 3px #928a8a solid;
   font-size: 16px;
 }
@@ -371,18 +369,12 @@ body {
   display: block;
   width: 50%;
   height: 60px;
-  margin: auto;
+  margin:  auto;
   background: #b52f3a;
   border: none;
   color: #ffffff;
   font-size: 18px;
-  margin-bottom: 30px;
-}
-
-.contact-form__input:focus {
-  border: 1px #ffffff solid;
-  border-bottom: 3px #928a8a solid;
-  font-size: 16px;
+  margin-bottom: 40px;
 }
 
 .contact-img {
@@ -394,12 +386,120 @@ body {
 .contact-img__map {
   display: block;
   width: 70%;
-  height: 92%;
-  margin-top: 80px;
+  margin-top: 60px;
 }
 
 footer {
   display: block;
-  height: 300px;
+  background: #272525;
+  padding: 60px 0px 50px 0px;
+}
+
+.footer-left {
+  display: inline-block;
+  width: 39%;
+  margin-left: 60px;
+}
+
+.footer-right {
+  display: inline-block;
+  width: 55%;
+  float: right;
+}
+
+.footer-address {
+  display: inline-block;
+  width: 23%;
+  margin-left: 110px;
+}
+
+.footer-news {
+  display: inline-block;
+  width: 30%;
+}
+
+.footer-ot {
+  display: inline-block;
+  width: 45%;
+  float: right;
+}
+
+.footer-logo {
+  display: inline-block;
+  width: 50%;
+  float: right;
+  margin-right: 160px;
+  margin-top: 70px;
+}
+
+.footer-title {
+  color: #ffffff;
+  font-size: 22px;
+  font-family: 'poppins', sans-serif;
+}
+
+.footer-icons {
+  color: #ffffff;
+  margin-right:7px;
+  margin-bottom: 10px;
+}
+
+.address-text , .address-break {
+  color: #ffffff;
+  font-family: 'poppins', sans-serif;
+  line-height: 10px;
+  font-size: 14px;
+  text-align: ;
+}
+
+.address-break {
+  margin: -15px 0 15px 15px;
+}
+.footer-lesson {
+  color: #ffffff;
+  font-family: 'poppins', sans-serif;
+  line-height: 10px;
+  font-size: 14px;
+}
+
+.ot__hours {
+  float: right;
+}
+
+.news__input {
+  height: 30px;
+  width: 220px;
+  font-size: 13px;
+  font-family: 'poppins', sans-serif;
+  padding-left: 10px;
+}
+
+.news__btn {
   background: #000000;
+  color: #ffffff;
+  font-size: 11px;
+  text-transform: uppercase;
+  padding: 10px;
+  border: none;
+  margin: 10px 0 10px 0;
+}
+
+.news-icons__fa {
+  font-size: 17px;
+  color: #ffffff;
+  margin-right: 6px;
+}
+
+.footer-logo__img {
+  width: 220px;
+  height: 90px;
+}
+
+.footer-down {
+  text-align: center;
+  background: #000000;
+  color: #6b6b6b;
+  font-size: 14px;
+  font-family: 'poppins', sans-serif;
+  padding: 10px;
 }
